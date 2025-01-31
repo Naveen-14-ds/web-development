@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Demo Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: blue;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        ul, ol {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the HTML5 Demo Page</h1>
+        <nav>
+            <a href="#section1">Section 1</a>
+            <a href="#section2">Section 2</a>
+            <a href="#section3">Section 3</a>
+        </nav>
+    </header>
+
+    <section id="section1">
+        <h2>Introduction</h2>
+        <p>This web page demonstrates the use of all major HTML5 tags in a single document.</p>
+        <blockquote>
+            "HTML5 is the cornerstone of modern web development." — Web Standards Expert
+        </blockquote>
+        <p>Contact us at <a href="mailto:webmaster@example.com">webmaster@example.com</a></p>
+    </section>
+
+    <section id="section2">
+        <h2>Media Content</h2>
+        <p>A sample image for audio and video using the &lt;tag&gt; tag:</p>
+        <audio controls>
+            <source src="sample-audio.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <p>Video content could be added similarly.</p>
+    </section>
+
+    <section id="section3">
+        <h2>Tables, Forms, and Lists</h2>
+        <h3>Sample Table</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>30</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>25</td>
+                <td>Los Angeles</td>
+            </tr>
+        </table>
+
+        <h3>Sample Form</h3>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+
+        <h3>Lists</h3>
+        <h4>Ordered List</h4>
+        <ol>
+            <li>Step 1</li>
+            <li>Step 2</li>
+            <li>Step 3</li>
+        </ol>
+
+        <h4>Unordered List</h4>
+        <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>Item C</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 HTML5 Demo Page</p>
+    </footer>
+</body>
+</html>
